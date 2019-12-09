@@ -8,13 +8,14 @@ import SEO from "../components/seo"
 const SheetUpPage = () => (
   <Layout>
     <SEO title="SheetUp" />
-    <h3>Some details for the upcoming SheetUp</h3>
+      <h3>Some details for the upcoming <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a></h3>
       <p>
         <ol>Be respectful of others ammo, either bring your own, or buy ammo there at the range (ammo bought at the range is more expensive).</ol>
         <ol>You must attend the short safety course at the range before firing any firearm.</ol>
         <ol>Guns should be left at the station and should only be moved by gun owners themselves.</ol>
         <ol>If you are concerned about serial numbers on guns being captured by the ubiquitous cameras you should cover them with tape.</ol>
         <ol>Similarly, if you are concerned about your face being captured by the ubiquitous cameras you should wear a Guy Fawkes mask (or similar sort of mask), though it should be noted that holding a firearm while wearing a mask can give people the wrong impression.</ol>
+        <ol>John C. Dvorak reports that wearing Juggalo makeup works to fool the facial recognition algos. YMMV ICP FTW. Note: Wearing Juggalo makeup while holding a firearm has similar issues as well.</ol>
       </p>
     <h3>Known ammo types that will fit the guns that will be there</h3>
       <p>
