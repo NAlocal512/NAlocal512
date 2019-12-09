@@ -1,0 +1,21 @@
+# This file is a template, and might need editing before it works on your project.
+image: node:dubnium
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  script:
+    - npm i -g yarn gatsby-cli
+    - yarn
+    - echo "STRIPE_SECRET_KEY=$STRIPE_SECRET_KEY" >> .env.production
+    - echo "STRIPE_PUB_KEY=$STRIPE_PUB_KEY" >> .env.production
+    - GATSBY_ACTIVE_ENV=production ./node_modules/.bin/gatsby build --prefix-paths
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
