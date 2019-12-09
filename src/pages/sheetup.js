@@ -24,11 +24,11 @@ const SheetUpPage = () => (
       <p>
         <table style={{ maxWidth: `100%` }}>
           <tr>
-            <th>mm</th>
+            <th>size in mm</th>
             <th>common name</th>
           </tr>
           <tr>
-            <th>5.7x15.6mm</th>
+            <th>5.7x15.6mmR</th>
             <th>.22 LR</th>
           </tr>
           <tr>
@@ -69,6 +69,7 @@ const SheetUpPage = () => (
           </tr>
         </table>
       </p>
+    <p>*mmR the (R) indicates rimfire round.</p>
     <p>Go back to our front <Link to="/">page</Link>.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
