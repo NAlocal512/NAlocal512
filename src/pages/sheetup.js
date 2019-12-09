@@ -23,7 +23,7 @@ const SheetUpPage = () => (
         <ul>.270</ul>
         <ul>7.62x39mm</ul>
         <ul>7.62x51mm</ul>
-        <ul>.30-06</ul>
+        <ul>7.62x63mm (.30-06)</ul>
         <ul>9mm parabellum</ul>
         <ul>.357 magnum</ul>
         <ul>.44 magnum</ul>
