@@ -19,12 +19,12 @@ const SheetUpPage = () => (
     <h3>Known ammo types that will fit the guns that will be there</h3>
       <p>
         <ul>.22</ul>
-        <ul>9mm parabellum</ul>
         <ul>5.56x45mm</ul>
         <ul>.270</ul>
         <ul>30.06</ul>
         <ul>7.62x39mm</ul>
         <ul>7.62x51mm</ul>
+        <ul>9mm parabellum</ul>
         <ul>.357 magnum</ul>
         <ul>.44 magnum</ul>
         <ul>.45 ACP</ul>
