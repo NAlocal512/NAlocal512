@@ -13,7 +13,7 @@ const SheetUpPage = () => (
         <ol>All attendees must attend the short safety course at the range before going onto the range.</ol>
         <ol>Read their <a href='https://www.lonestargunrange.com/lone-star-gun-range-faqs.php'>FAQ here</a>.</ol>
         <ol>Be respectful of others ammo, either bring your own, or buy ammo there at the range (ammo bought at the range is more expensive).</ol>
-        <ol>Only attendees wearing a NA Local512 badge are allowed to shoot guns that producers are sharing</ol>
+        <ol>Only attendees wearing a NAlocal512 badge are allowed to shoot guns that producers are sharing</ol>
         <ol>Guns should be left at the station and should only be moved by gun owners themselves.</ol>
         <ol>If you are concerned about serial numbers on guns being captured by the ubiquitous cameras then you should cover them with tape.</ol>
         <ol>Similarly, if you are concerned about your face being captured by the ubiquitous cameras you should wear a Guy Fawkes mask (or a bandana which may be available upon request), though it should be noted that holding a firearm while wearing a mask can give people the wrong impression.</ol>
