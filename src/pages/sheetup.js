@@ -13,6 +13,8 @@ const SheetUpPage = () => (
         <ol>Be respectful of others ammo, either bring your own, or buy ammo there at the range (ammo bought at the range is more expensive).</ol>
         <ol>You must attend the short safety course at the range before firing any firearm.</ol>
         <ol>Guns should be left at the station and should only be moved by gun owners themselves.</ol>
+        <ol>If you are concerned about serial numbers on guns being captured by the ubiquitous cameras you should cover them with tape.</ol>
+        <ol>Similarly, if you are concerned about your face being captured by the ubiquitous cameras you should wear a Guy Fawkes mask (or similar sort of mask), though it should be noted that holding a firearm while wearing a mask can give people the wrong impression.</ol>
       </p>
     <h3>Known ammo types that will fit the guns that will be there</h3>
       <p>
