@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const SheetUpPage = () => (
   <Layout>
     <SEO title="SheetUp" />
-      <h3>Some details for the upcoming <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a></h3>
+      <h3>Some details for the upcoming <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a></h3>
       <p>
         <ol>Be respectful of others ammo, either bring your own, or buy ammo there at the range (ammo bought at the range is more expensive).</ol>
         <ol>You must attend the short safety course at the range before firing any firearm.</ol>
