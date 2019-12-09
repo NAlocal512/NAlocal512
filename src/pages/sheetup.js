@@ -45,7 +45,7 @@ const SheetUpPage = () => (
           </tr>
           <tr>
             <th>7.62x51mm</th>
-            <th>7.62 NATO</th>
+            <th>.308 or 7.62 NATO</th>
           </tr>
           <tr>
             <th>7.62x63mm</th>
