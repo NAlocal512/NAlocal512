@@ -8,6 +8,9 @@ import SEO from "../components/seo"
 const SheetUpPage = () => (
   <Layout>
     <SEO title="SheetUp" />
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <Image />
+    </div>
       <h2>Some details for the upcoming <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a></h2>
       <p>
         <ol>All attendees must attend the short safety course at the range before going onto the range.</ol>
@@ -71,9 +74,6 @@ const SheetUpPage = () => (
       </p>
     <p>*mmR the (R) indicates rimfire round.</p>
     <p>Go back to our front <Link to="/">page</Link>.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
   </Layout>
 )
 
