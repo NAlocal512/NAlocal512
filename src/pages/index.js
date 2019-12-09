@@ -12,6 +12,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <p><Link to="/about/">about page</Link>.</p>
+    <p><Link to="/sheetup/">sheetup page</Link>.</p>
   </Layout>
 )
 
