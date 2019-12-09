@@ -10,12 +10,15 @@ const SheetUpPage = () => (
     <SEO title="SheetUp" />
       <h3>Some details for the upcoming <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a></h3>
       <p>
+        <ol>All attendees must attend the short safety course at the range before going onto the range.</ol>
+        <ol>Read their <a href='https://www.lonestargunrange.com/lone-star-gun-range-faqs.php'>FAQ here</a>.</ol>
         <ol>Be respectful of others ammo, either bring your own, or buy ammo there at the range (ammo bought at the range is more expensive).</ol>
-        <ol>You must attend the short safety course at the range before firing any firearm.</ol>
+        <ol>Only attendees wearing a NA Local512 badge are allowed to shoot guns that producers are sharing</ol>
         <ol>Guns should be left at the station and should only be moved by gun owners themselves.</ol>
-        <ol>If you are concerned about serial numbers on guns being captured by the ubiquitous cameras you should cover them with tape.</ol>
-        <ol>Similarly, if you are concerned about your face being captured by the ubiquitous cameras you should wear a Guy Fawkes mask (or similar sort of mask), though it should be noted that holding a firearm while wearing a mask can give people the wrong impression.</ol>
+        <ol>If you are concerned about serial numbers on guns being captured by the ubiquitous cameras then you should cover them with tape.</ol>
+        <ol>Similarly, if you are concerned about your face being captured by the ubiquitous cameras you should wear a Guy Fawkes mask (or a bandana which may be available upon request), though it should be noted that holding a firearm while wearing a mask can give people the wrong impression.</ol>
         <ol>John C. Dvorak reports that wearing Juggalo makeup works to fool the facial recognition algos. YMMV ICP FTW. Note: Wearing Juggalo makeup while holding a firearm has similar issues as well.</ol>
+        <ol>Also, feel free to grab an Adam or JCD's head on a stick and block your face before photos are taken (this has the added bonus of adding JCD and Adam to all photos, bonus points for standing next to Adam or JCD in a shot).</ol>
       </p>
     <h3>Known ammo types that will fit the guns that will be there</h3>
       <p>
