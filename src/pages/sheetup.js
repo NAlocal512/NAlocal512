@@ -18,16 +18,52 @@ const SheetUpPage = () => (
       </p>
     <h3>Known ammo types that will fit the guns that will be there</h3>
       <p>
-        <ul>.22</ul>
-        <ul>5.56x45mm</ul>
-        <ul>.270</ul>
-        <ul>7.62x39mm</ul>
-        <ul>7.62x51mm</ul>
-        <ul>7.62x63mm (.30-06)</ul>
-        <ul>9mm parabellum</ul>
-        <ul>.357 magnum</ul>
-        <ul>.44 magnum</ul>
-        <ul>.45 ACP</ul>
+        <table style={{ maxWidth: `100%` }}>
+          <tr>
+            <th>mm</th>
+            <th>common name</th>
+          </tr>
+          <tr>
+            <th>5.7x15.6mm</th>
+            <th>.22 LR</th>
+          </tr>
+          <tr>
+            <th>5.56x45mm</th>
+            <th>556 NATO</th>
+          </tr>
+          <tr>
+            <th>7x64.5mm</th>
+            <th>.270 Winchester</th>
+          </tr>
+          <tr>
+            <th>7.62x39mm</th>
+            <th>7.62 Soviet</th>
+          </tr>
+          <tr>
+            <th>7.62x51mm</th>
+            <th>7.62 NATO</th>
+          </tr>
+          <tr>
+            <th>7.62x63mm</th>
+            <th>.30-06 or ".30 Gov't '06" by Winchester</th>
+          </tr>
+          <tr>
+            <th>9x19mm</th>
+            <th>9mm Parabellum</th>
+          </tr>
+          <tr>
+            <th>9x33mmR</th>
+            <th>.357 S&W Magnum</th>
+          </tr>
+          <tr>
+            <th>10.9x33mmR</th>
+            <th>.44 Remington Magnum</th>
+          </tr>
+          <tr>
+            <th>11.43x21mm</th>
+            <th>.45 ACP (Automatic Colt Pistol)</th>
+          </tr>
+        </table>
       </p>
     <p>Go back to our front <Link to="/">page</Link>.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
