@@ -53,7 +53,7 @@ const SheetUpPage = () => (
           </tr>
           <tr>
             <th>9x19mm</th>
-            <th>9mm Parabellum</th>
+            <th>9mm Parabellum or 9mm Luger</th>
           </tr>
           <tr>
             <th>9x33mmR</th>
