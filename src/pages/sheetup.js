@@ -67,7 +67,6 @@ const SheetUpPage = () => (
             <th>.38 special</th>
           </tr>
           <tr>
-          <tr>
             <th>9x33mmR</th>
             <th>.357 S&W Magnum</th>
           </tr>
