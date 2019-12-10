@@ -55,9 +55,18 @@ const SheetUpPage = () => (
             <th>.30-06 or ".30 Gov't '06" by Winchester</th>
           </tr>
           <tr>
+            <th>9x17mm</th>
+            <th>.380 ACP, .380 Auto, 9mm Browning, 9mm Corto, 9mm Kurz, 9mm Short</th>
+          </tr>
+          <tr>
             <th>9x19mm</th>
             <th>9mm Parabellum or 9mm Luger</th>
           </tr>
+          <tr>
+            <th>9x26.5mmR</th>
+            <th>.38 special</th>
+          </tr>
+          <tr>
           <tr>
             <th>9x33mmR</th>
             <th>.357 S&W Magnum</th>
