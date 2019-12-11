@@ -78,6 +78,10 @@ const SheetUpPage = () => (
             <th>11.43x21mm</th>
             <th>.45 ACP (Automatic Colt Pistol)</th>
           </tr>
+          <tr>
+            <th>18.52x69.85mm</th>
+            <th>12 gauge 2.75" shotgun</th>
+          </tr>
         </table>
       </p>
     <p>*mmR the (R) indicates rimfire round.</p>
