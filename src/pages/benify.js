@@ -9,7 +9,7 @@ const BenifyPage = () => (
     <SEO title="Benify Yourself" />
     <h1>Benify Yourself</h1>
     <p>Welcome to the Benify yourself page!</p>
-    <p>Here we'd like to include a some useful resources for anyone who would like to become a dude named ben.</p>
+    <p>Here we'd like to include some useful resources for anyone who would like to become a dude named ben.</p>
     <p>Or just anyone who would like to sharpen some of the necessary skills to contribute to this website.</p>
     <p><h2>Git</h2></p>
     <p>First complete my crash course <a href="https://www.katacoda.com/thoth/scenarios/introtogit">intro to git</a>.</p>
