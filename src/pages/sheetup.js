@@ -79,6 +79,10 @@ const SheetUpPage = () => (
             <th>.357 S&W Magnum</th>
           </tr>
           <tr>
+            <th>10x25mm</th>
+            <th>10mm Auto</th>
+          </tr>
+          <tr>
             <th>10.9x33mmR</th>
             <th>.44 Remington Magnum</th>
           </tr>
