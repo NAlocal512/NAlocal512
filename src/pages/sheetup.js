@@ -12,7 +12,7 @@ const SheetUpPage = () => (
       <Image />
     </div>
       <h1>ShootUp - MeetShoot - MeatChute - SheetUp</h1>
-      <h2>2019-12-14 from 10am-3pm</h2>
+      <h2>December the 14, 2019 - from 10am-3pm</h2>
         <p><a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a> includes directions on their <a href="https://www.lonestargunrange.com/contact-lone-star-gun-range-austin-tx.php"> contact page</a>. There is also a map from the NSA at the at the <a href="#maps">bottom of this page.</a></p>
       <h3>Details for the upcoming official NAlocal512 <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a>.</h3>
       <p>
