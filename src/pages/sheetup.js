@@ -13,7 +13,8 @@ const SheetUpPage = () => (
     </div>
       <h1>ShootUp - MeetShoot - MeatChute - SheetUp</h1>
       <h2>December the 14, 2019 - from 10am-3pm</h2>
-        <p><a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a> includes directions on their <a href="https://www.lonestargunrange.com/contact-lone-star-gun-range-austin-tx.php"> contact page</a>. There is also a map from the NSA at the at the <a href="#maps">bottom of this page.</a></p>
+        <p><a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a> includes directions on their <a href="https://www.lonestargunrange.com/contact-lone-star-gun-range-austin-tx.php"> contact page</a>.</p>
+        <p>Also, a copy of those directions and a map from the NSA are available at the <a href="#maps">bottom of this page.</a></p>
       <h3>Details for the upcoming official NAlocal512 <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a>.</h3>
       <p>
         <ol>All attendees must attend the short safety course at the range before going onto the range.</ol>
