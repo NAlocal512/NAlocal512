@@ -164,6 +164,14 @@ const Header = ({ siteTitle }) => {
               <Link to="/sheetup">Sheetup</Link>
             </ListItemText>
           </ListItem>
+          <ListItem button>
+            <ListItemIcon>
+              <ListIcon />
+            </ListItemIcon>
+            <ListItemText>
+              <Link to="/benify">Benify Yourself</Link>
+            </ListItemText>
+          </ListItem>
         </List>
       </Drawer>
     </div>
