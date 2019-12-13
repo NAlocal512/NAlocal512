@@ -79,12 +79,12 @@ const IndexPage = () => {
       </ListItem>
       <Collapse in={!events} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
+          <Link to="/sheetup">
           <ListItem button className={classes.nested}>
             <ListItemIcon><Done /></ListItemIcon>
-              <Link to="/sheetup">
                 <ListItemText primary="ShootUp, MeetShoot, MeatChute, SheetUp" />
-              </Link>
           </ListItem>
+          </Link>
         </List>
       </Collapse>
       <ListItem button onClick={() => handleClick("info")}>
@@ -96,18 +96,18 @@ const IndexPage = () => {
       </ListItem>
       <Collapse in={!info} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
+          <Link to="/about">
           <ListItem button className={classes.nested}>
             <ListItemIcon><Done /></ListItemIcon>
-            <Link to="/about">
               <ListItemText primary="About this site." />
-            </Link>
           </ListItem>
-          <ListItem button className={classes.nested}>
-            <ListItemIcon><Done /></ListItemIcon>
-            <Link to="/benify">
+          </Link>
+          <Link to="/benify">
+            <ListItem button className={classes.nested}>
+              <ListItemIcon><Done /></ListItemIcon>
               <ListItemText primary="Benify Yourself!" />
-            </Link>
-          </ListItem>
+            </ListItem>
+          </Link>
         </List>
       </Collapse>
     </List>
