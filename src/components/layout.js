@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
           >
             <main>{children}</main>
             <footer style={{ paddingTop: 10 }}>
-              © {new Date().getFullYear()}
+              © {new Date().getFullYear()} <a href="http://NAlocal512.com">NAlocal512.com</a>
             </footer>
           </div>
         </div>
