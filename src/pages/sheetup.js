@@ -86,7 +86,6 @@ const SheetUpPage = () => (
         </table>
       </p>
     <p>*mmR the (R) indicates rimfire round.</p>
-    <p>Go back to our <Link to="/">front page</Link>.</p>
   </Layout>
 )
 
