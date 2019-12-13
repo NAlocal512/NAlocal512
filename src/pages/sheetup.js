@@ -47,6 +47,10 @@ const SheetUpPage = () => (
             <th>.270 Winchester</th>
           </tr>
           <tr>
+            <th>7.62x33mm</th>
+            <th>.30 carbine</th>
+          </tr>
+          <tr>
             <th>7.62x39mm</th>
             <th>7.62 Soviet</th>
           </tr>
