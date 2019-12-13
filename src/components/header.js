@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    background: 'linear-gradient(to right,  #FA0c0c, #330000)',
+    background: 'linear-gradient(to right,  #FA0c0c, #000066)',
   },
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
