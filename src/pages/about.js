@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <p>This site was built by local No Agenda fans from the NAlocal512 meetup group.</p>
+    <p>This site was built by our <a href="https://gitlab.com/groups/nalocal512/-/group_members">team</a> composed of local No Agenda fans from the NAlocal512 meetup group.</p>
     <p>Our websites are built in <a href="https://gatsbyjs.org/">Gatsby</a> a web framework built to make blazing fast static websites from a template framework that allows you to use react components.</p>
     <p>
       The fantastic CI/CD available here at &nbsp;
