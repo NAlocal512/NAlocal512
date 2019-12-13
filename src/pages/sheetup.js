@@ -11,7 +11,8 @@ const SheetUpPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-      <h2>Some details for the upcoming <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a></h2>
+      <h1>ShootUp, MeetShoot, MeatChute, SheetUp</h1>
+      <h3>Some details for the upcoming official NAlocal512 <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a></h3>
       <p>
         <ol>All attendees must attend the short safety course at the range before going onto the range.</ol>
         <ol>Read their <a href='https://www.lonestargunrange.com/lone-star-gun-range-faqs.php'>FAQ here</a>.</ol>
@@ -85,7 +86,7 @@ const SheetUpPage = () => (
         </table>
       </p>
     <p>*mmR the (R) indicates rimfire round.</p>
-    <p>Go back to our front <Link to="/">page</Link>.</p>
+    <p>Go back to our <Link to="/">front page</Link>.</p>
   </Layout>
 )
 
