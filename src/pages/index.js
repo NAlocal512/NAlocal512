@@ -87,6 +87,29 @@ const IndexPage = () => {
           </ListItem>
         </List>
       </Collapse>
+      <ListItem button onClick={() => handleClick("info")}>
+        <ListItemIcon>
+          <InfoIcon />
+        </ListItemIcon>
+        <ListItemText primary="Info" />
+        {info ? <ExpandLess /> : <ExpandMore />}
+      </ListItem>
+      <Collapse in={!info} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+          <ListItem button className={classes.nested}>
+            <ListItemIcon><Done /></ListItemIcon>
+            <Link to="/about">
+              <ListItemText primary="About this site." />
+            </Link>
+          </ListItem>
+          <ListItem button className={classes.nested}>
+            <ListItemIcon><Done /></ListItemIcon>
+            <Link to="/benify">
+              <ListItemText primary="Benify Yourself!" />
+            </Link>
+          </ListItem>
+        </List>
+      </Collapse>
     </List>
     </Layout>
   )
