@@ -82,7 +82,7 @@ const IndexPage = () => {
           <Link to="/sheetup">
           <ListItem button className={classes.nested}>
             <ListItemIcon><Done /></ListItemIcon>
-                <ListItemText primary="ShootUp - MeetShoot - MeatChute - SheetUp @Lone Star Gun range 2019-12-14" />
+                <ListItemText primary="ShootUp - MeetShoot - MeatChute - SheetUp - @Lone Star Gun range - 2019-12-14" />
           </ListItem>
           </Link>
         </List>
