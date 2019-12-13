@@ -6,9 +6,8 @@ import SEO from "../components/seo"
 
 const BenifyPage = () => (
   <Layout>
-    <SEO title="Benify Yourself" />
-    <h1>Benify Yourself</h1>
-    <p>Welcome to the Benify yourself page!</p>
+    <SEO title="Benify Yourself!" />
+    <h1>Benify Yourself!</h1>
     <p>Here we'd like to include some useful resources for anyone who would like to become a dude named ben.</p>
     <p>Or just anyone who would like to sharpen some of the necessary skills to contribute to this website.</p>
     <p><h2>Git</h2></p>
