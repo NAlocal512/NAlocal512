@@ -11,7 +11,7 @@ const SheetUpPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-      <h1>ShootUp, MeetShoot, MeatChute, SheetUp</h1>
+      <h1>ShootUp - MeetShoot - MeatChute - SheetUp</h1>
       <h3>Some details for the upcoming official NAlocal512 <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>SheetUp</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a></h3>
       <p>
         <ol>All attendees must attend the short safety course at the range before going onto the range.</ol>
