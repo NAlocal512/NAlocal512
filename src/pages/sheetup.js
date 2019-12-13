@@ -90,6 +90,15 @@ const SheetUpPage = () => (
     <p>*mmR the (R) indicates rimfire round.</p>
     <p><a name="maps">NSA maps</a></p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d890.518330629315!2d-97.64443596741299!3d29.943220034689855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644a82f553c687d%3A0x16bf0b76b7e387a0!2s3795%20Dry%20Creek%20Rd%2C%20Lockhart%2C%20TX%2078644!5e1!3m2!1sen!2sus!4v1576204316476!5m2!1sen!2sus" width="600" height="450" frameborder="0" allowfullscreen=""></iframe>
+    <p>
+      DIRECTIONS:
+    </p>
+    <p>
+      Proceed West from Austin Bergstrom International Airport on HWY 71 for approximately 2.5 miles to the HWY 183 South Interchange. Take HWY 183 South about 18 miles to FM 1185 (Lytton Springs exit). Turn left at the EXXON Tiger Tote. Go 2 miles to CR 183/Old Lytton Springs Road and make a hard right. Take an immediate left on CR 182/Dry Creek Road and go 1 mile. Look for our sign on the right of 3795 Dry Creek Road.
+    </p>
+    <p>
+      TX Tag users...Take 130 South to the 2001/ FM 1185 exit (Lytton Springs exit). Turn left at the EXXON Tiger Tote. Go 2 miles to CR 183/Old Lytton Springs Road and make a hard right. Take your immediate left on CR 182/Dry Creek Road and go 1 mile. Look for the sign on the right of 3795 Dry Creek Road.
+    </p>
   </Layout>
 )
 
