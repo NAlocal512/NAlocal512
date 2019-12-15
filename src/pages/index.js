@@ -79,10 +79,10 @@ const IndexPage = () => {
       </ListItem>
       <Collapse in={!events} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          <Link to="/sheetup">
+          <Link to="/MeetShoot001">
           <ListItem button className={classes.nested}>
             <ListItemIcon><Done /></ListItemIcon>
-                <ListItemText primary="ShootUp - MeetShoot - MeatChute - SheetUp - @Lone Star Gun range - 2019-12-14" />
+                <ListItemText primary="MeetShoot #001 -aka- ShootUp - MeatChute - SheetUp - @Lone Star Gun range - 2019-12-14" />
           </ListItem>
           </Link>
         </List>
