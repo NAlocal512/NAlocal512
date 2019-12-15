@@ -6,6 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
 import MEETSHOOT001MP4 from "../assets/meetshoot001.mp4"
+import MEETSHOOT001MP3 from "../assets/LiveFireBed.mp3"
 
 const MeetShoot001Page = props => (
   <Layout>
@@ -15,6 +16,12 @@ const MeetShoot001Page = props => (
     </div>
       <h1>MeetShoot #001</h1>
       <h2>December the 14th, 2019 - from 10am-3pm</h2>
+      <p>This web page is best viewed with this audio</p>
+      <p>
+        <audio controls >
+          <source src={MEETSHOOT001MP3} type="audio/mp3" />
+        </audio>
+      </p>
       <p><Img fluid={props.data.meetshoot001group.childImageSharp.fluid} alt="" /></p>
       <p><Img fluid={props.data.adamgunny.childImageSharp.fluid} alt="" /></p>
       <p><Img fluid={props.data.nalocal512grubtime.childImageSharp.fluid} alt="" /></p>
