@@ -160,13 +160,13 @@ const Header = ({ siteTitle }) => {
             </ListItemText>
           </ListItem>
           </Link>
-          <Link to="/sheetup">
+            <Link to="/MeetShoot001">
           <ListItem button>
             <ListItemIcon>
               <ListIcon />
             </ListItemIcon>
             <ListItemText>
-                Sheetup
+                Meet Shoot 001
             </ListItemText>
           </ListItem>
           </Link>
