@@ -16,7 +16,6 @@ pages:
     - GATSBY_ACTIVE_ENV=production ./node_modules/.bin/gatsby build --prefix-paths
   environment:
     name: production
-    # url: "https://$CI_PROJECT_NAMESPACE.gitlab.io/-/$CI_PROJECT_NAME/-/jobs/$CI_JOB_ID/artifacts/public/index.html"
     url: "https://nalocal512.com/"
   artifacts:
     paths:
@@ -27,7 +26,6 @@ pages:
 staging:
   environment:
     name: staging
-    # url: "https://$CI_PROJECT_NAMESPACE.gitlab.io/-/$CI_PROJECT_NAME/-/jobs/$CI_JOB_ID/artifacts/public/index.html"
     url: "https://staging.nalocal512.com/"
   script:
     - npm i -g yarn gatsby-cli
