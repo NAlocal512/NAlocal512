@@ -3,6 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
+import Img from "gatsby-image"
 
 import { makeStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
@@ -32,7 +33,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const IndexPage = () => {
+const IndexPage = props => {
 
   const classes = useStyles()
   const [events, setEvents] = React.useState(true)
@@ -66,6 +67,7 @@ const IndexPage = () => {
         </Grid>
       </Grid>
       <Divider />
+      <p><Img fluid={props.data.meetshoot001group.childImageSharp.fluid} alt="" /></p>
       <List
         component="nav"
         className={classes.root}
@@ -116,3 +118,11 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query {
+    meetshoot001group: file(relativePath: { eq: "meetshoot001-group.jpg" }) {
+      ...fluidImage
+    }
+  }
+`
