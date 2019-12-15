@@ -1,11 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Img from "gatsby-image"
+import MEETSHOOT001MP4 from "../assets/meetshoot001.mp4"
 
-const MeetShoot001Page = () => (
+const MeetShoot001Page = props => (
   <Layout>
     <SEO title="MeetShoot001" />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -13,8 +15,16 @@ const MeetShoot001Page = () => (
     </div>
       <h1>MeetShoot #001</h1>
       <h2>December the 14th, 2019 - from 10am-3pm</h2>
-        <p><a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a> includes directions on their <a href="https://www.lonestargunrange.com/contact-lone-star-gun-range-austin-tx.php"> contact page</a>.</p>
-        <p>Also, a copy of those directions and a map from the NSA are available at the <a href="#maps">bottom of this page.</a></p>
+      <p><Img fluid={props.data.meetshoot001group.childImageSharp.fluid} alt="" /></p>
+      <p><Img fluid={props.data.adamgunny.childImageSharp.fluid} alt="" /></p>
+      <p><Img fluid={props.data.nalocal512grubtime.childImageSharp.fluid} alt="" /></p>
+      <p><Img fluid={props.data.blackslineup.childImageSharp.fluid} alt="" /></p>
+      <p><video controls width="920">
+        <source src={MEETSHOOT001MP4} type="video/mp4" />
+      </video></p>
+      <p><a href="http://20191214.nalocal512.com/">Full photo album</a> from the first Meet Shoot.</p>
+      <p><a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a> includes directions on their <a href="https://www.lonestargunrange.com/contact-lone-star-gun-range-austin-tx.php"> contact page</a>.</p>
+      <p>Also, a copy of those directions and a map from the NSA are available at the <a href="#maps">bottom of this page.</a></p>
       <h3>Details for the upcoming official NAlocal512 <a href='https://noagendameetups.com/event/no-agenda-central-texas-meet-shoot/'>MeetShoot001</a> at the <a href="https://www.lonestargunrange.com/lone-star-gun-range-austin-tx.php">Lone Star Gun Range</a>.</h3>
       <p>
         <ol>All attendees must attend the short safety course at the range before going onto the range.</ol>
@@ -112,3 +122,30 @@ const MeetShoot001Page = () => (
 )
 
 export default MeetShoot001Page
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
+
+export const pageQuery = graphql`
+  query {
+    meetshoot001group: file(relativePath: { eq: "meetshoot001-group.jpg" }) {
+      ...fluidImage
+    }
+    adamgunny: file(relativePath: { eq: "adamgunny.jpg" }) {
+      ...fluidImage
+    }
+    blackslineup: file(relativePath: { eq: "blackslineup.jpg" }) {
+      ...fluidImage
+    }
+    nalocal512grubtime: file(relativePath: { eq: "nalocal512grubtime.jpg" }) {
+      ...fluidImage
+    }
+  }
+`
